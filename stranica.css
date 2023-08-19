@@ -1,0 +1,14 @@
+body {
+  background-color: #fa7d10; /* начальный цвет фона */
+  animation: changeBgColor 5s infinite;
+}
+
+@keyframes changeBgColor {
+
+  50% {
+    background-color: #f00; /* первый новый цвет фона */
+  }
+  100% {
+    background-color: #fffdd0; /* второй новый цвет фона */
+  }
+}

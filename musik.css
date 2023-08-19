@@ -1,0 +1,19 @@
+#notification-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #notification-container p {
+    margin-bottom: 10px;
+  }
+  
+  #notification-container button {
+    margin: 0 5px;
+  }
+  
